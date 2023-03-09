@@ -1,11 +1,45 @@
 ---
-title: "tam_first_wesite"
+title: "Tam Hoang Nguyen"
+  
+about:
+  id: intro-heading
+  template: trestles
+  image: images/profile_pic.jpg
+  links:
+    - icon: facebook
+      href: https://www.facebook.com/home.php
+    - icon: instagram
+      href: https://www.instagram.com/
+    - icon: github
+      href: https://github.com/Tam-Ngn
 ---
 
-This is a Quarto website.
+**\### This content appears above the formatted about page content.**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+\
 
-```{r}
-1 + 1
-```
+**:::{#intro-heading}**
+
+**Brief description of me.**
+
+I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.
+
+Fun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn't allowed near the tables though).
+
+At 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.
+
+Now that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life, found love, got burned but above all that, I learned to live my life the way I didn't before.
+
+**\## Education**
+
+**Macalester College \| St. Paul MN \<br\>**
+
+**B.A. in Statistics and Computer Science \| Sept 2020 - May 2024**
+
+**:::**
+
+\
+
+**\### This content appears below the formatted about page content.**
+
+\

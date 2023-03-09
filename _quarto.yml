@@ -1,13 +1,27 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "tam_first_wesite"
   navbar:
+    background: primary
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        file: index.qmd
+      - talks.qmd
+      - about.qmd 
+
+ 
+page-footer:
+  left: |
+    &copy; Tam Nguyen Hoang, 2023<br>
+    All content licensed under <i class='bi-badge-cc'></i>
+    [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+  right: |
+    Site built with <a href='https://quarto.org/'>Quarto</a>
+ 
+    
 
 format:
   html:
