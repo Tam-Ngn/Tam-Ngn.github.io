@@ -7,9 +7,9 @@ about:
   image: images/profile_pic.jpg
   links:
     - icon: facebook
-      href: https://www.facebook.com/home.php
+      href: https://www.facebook.com/du.jetaime
     - icon: instagram
-      href: https://www.instagram.com/
+      href: https://www.instagram.com/tamtamnguyen0101
     - icon: github
       href: https://github.com/Tam-Ngn
 ---
