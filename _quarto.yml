@@ -9,8 +9,8 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - talks.qmd
-      - about.qmd 
+      - text: "Personal Projects"
+        file: projects.qmd
 
  
 page-footer:

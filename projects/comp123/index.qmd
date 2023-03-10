@@ -1,0 +1,18 @@
+---
+title: "A Cuisine Game"
+author: "Tam Nguyen - Linh Dang - Na Nguyen"
+description: "My first Computer Science project that aims to not only dwell upon what was learned in class but also to introduce special dishes from my dear home country - Vietnam. To win this game, the player needs to select the right ingredients to make a chosen special dish whose recipe will be revealed before gameplay."
+
+image: comp123.png
+image-alt: quizgrader logo
+categories:
+  - First Time Coding
+  - Having Fun
+  - Culture
+  - Cuisine
+about:
+  template: solana
+  image: comp123.png
+---
+
+Full code can be found [here](https://github.com/Tam-Ngn/Comp123_CuisineGame)

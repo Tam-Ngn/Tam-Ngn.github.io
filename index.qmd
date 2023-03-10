@@ -14,13 +14,7 @@ about:
       href: https://github.com/Tam-Ngn
 ---
 
-**\### This content appears above the formatted about page content.**
-
-\
-
-**:::{#intro-heading}**
-
-**Brief description of me.**
+## **Brief description of me.**
 
 I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.
 
@@ -28,18 +22,12 @@ Fun fact: Because my hometown is right next to the casinos in Cambodia, my mom w
 
 At 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.
 
-Now that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life, found love, got burned but above all that, I learned to live my life the way I didn't before.
+Now that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn't before.
 
-**\## Education**
+## **Education**
 
-**Macalester College \| St. Paul MN \<br\>**
+**Macalester College \| St. Paul MN**
 
 **B.A. in Statistics and Computer Science \| Sept 2020 - May 2024**
-
-**:::**
-
-\
-
-**\### This content appears below the formatted about page content.**
 
 \

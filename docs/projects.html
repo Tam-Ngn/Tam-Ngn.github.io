@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tam Hoang Nguyen</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -57,12 +60,42 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,11 +107,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html">
+    <a class="nav-link active" href="./projects.html" aria-current="page">
  <span class="menu-text">Personal Projects</span></a>
   </li>  
 </ul>
@@ -88,57 +121,133 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Projects</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Chronic Disease">Chronic Disease <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Cuisine">Cuisine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="First Time Coding">First Time Coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Having Fun">Having Fun <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research">Research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Urban Development">Urban Development <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/profile_pic.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Tam Hoang Nguyen</h1>
-</div>
-<div class="quarto-title-meta">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
   </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.facebook.com/home.php" class="about-link">
-    <i class="bi bi-facebook"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.instagram.com/" class="about-link">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/Tam-Ngn" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="brief-description-of-me." class="level2">
-<h2 data-anchor-id="brief-description-of-me."><strong>Brief description of me.</strong></h2>
-<p>I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.</p>
-<p>Fun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).</p>
-<p>At 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.</p>
-<p>Now that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn’t before.</p>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education"><strong>Education</strong></h2>
-<p><strong>Macalester College | St.&nbsp;Paul MN</strong></p>
-<p><strong>B.A. in Statistics and Computer Science | Sept 2020 - May 2024</strong></p>
-<p><br>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Research,Chronic Disease,Urban Development" data-listing-file-modified-sort="1678412618586" data-listing-reading-time-sort="0.04">
+<a href="./projects/comp112/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/comp112/comp112_img.png" class="thumbnail-image card-img" style="height: 150px;" alt="quizgrader logo">
 </p>
-
-
-</section>
-</main></div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Urbanization and Cancer Related Deaths
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
 </div>
- <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('Chronic Disease'); return false;">
+Chronic Disease
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Urban Development'); return false;">
+Urban Development
+</div>
+</div>
+<div class="card-text listing-description">
+My first data science project that explores the relationship between the rate of urbanization (an example of high urbanization is any developed country and vice versa, an…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="First Time Coding,Having Fun,Culture,Cuisine" data-listing-file-modified-sort="1678414883361" data-listing-reading-time-sort="0.03">
+<a href="./projects/comp123/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./projects/comp123/comp123.png" class="thumbnail-image card-img" style="height: 150px;" alt="quizgrader logo">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Cuisine Game
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('First Time Coding'); return false;">
+First Time Coding
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Having Fun'); return false;">
+Having Fun
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Culture'); return false;">
+Culture
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Cuisine'); return false;">
+Cuisine
+</div>
+</div>
+<div class="card-text listing-description">
+My first Computer Science project that aims to not only dwell upon what was learned in class but also to introduce special dishes from my dear home country - Vietnam. To win…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Tam Nguyen - Linh Dang - Na Nguyen
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -159,6 +268,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Tam Hoang Nguyen",
     "section": "",
-    "text": "### This content appears above the formatted about page content.\n\n\n:::{#intro-heading}\nBrief description of me.\nI am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.\nFun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).\nAt 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.\nNow that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life, found love, got burned but above all that, I learned to live my life the way I didn’t before.\n## Education\nMacalester College | St. Paul MN <br>\nB.A. in Statistics and Computer Science | Sept 2020 - May 2024\n:::\n\n\n### This content appears below the formatted about page content."
+    "text": "I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.\nFun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).\nAt 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.\nNow that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn’t before."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,33 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Tam Hoang Nguyen",
+    "section": "Education",
+    "text": "Education\nMacalester College | St. Paul MN\nB.A. in Statistics and Computer Science | Sept 2020 - May 2024"
+  },
+  {
+    "objectID": "projects/comp112/index.html",
+    "href": "projects/comp112/index.html",
+    "title": "Urbanization and Cancer Related Deaths",
+    "section": "",
+    "text": "To read the full paper, please click here"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nUrbanization and Cancer Related Deaths\n\n\n\nResearch\n\n\nChronic Disease\n\n\nUrban Development\n\n\n\nMy first data science project that explores the relationship between the rate of urbanization (an example of high urbanization is any developed country and vice versa, an…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Cuisine Game\n\n\n\nFirst Time Coding\n\n\nHaving Fun\n\n\nCulture\n\n\nCuisine\n\n\n\nMy first Computer Science project that aims to not only dwell upon what was learned in class but also to introduce special dishes from my dear home country - Vietnam. To win…\n\n\n\nTam Nguyen - Linh Dang - Na Nguyen\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/comp123/index.html",
+    "href": "projects/comp123/index.html",
+    "title": "A Cuisine Game",
+    "section": "",
+    "text": "Full code can be found here"
   }
 ]

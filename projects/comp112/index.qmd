@@ -1,0 +1,15 @@
+---
+title: "Urbanization and Cancer Related Deaths"
+description: "My first data science project that explores the relationship between the rate of urbanization (an example of high urbanization is any developed country and vice versa, an instance of low urbanization is any developing/underdeveloped country) and the accelaration rate of cancer deaths."
+image: comp112_img.png
+image-alt: quizgrader logo
+categories:
+  - Research
+  - Chronic Disease
+  - Urban Development
+about:
+  template: solana
+  image: comp112_img.png
+---
+
+To read the full paper, please [click here](file:///Users/nguyenhoangtam/Documents/year%202%20/sem%202/COMP%20112/Ting_Tam_Chris_final_project/Final%20Report.html)
