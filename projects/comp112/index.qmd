@@ -12,4 +12,4 @@ about:
   image: comp112_img.png
 ---
 
-To read the full paper, please [click here](https://github.com/Tam-Ngn/Tam-Ngn.github.io/blob/main/projects/comp112/final-written-report.html)
+To read the full paper, please [click here](final-written-report.html)
