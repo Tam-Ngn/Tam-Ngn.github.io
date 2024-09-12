@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Tam Hoang Nguyen",
     "section": "",
-    "text": "I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.\nFun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).\nAt 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.\nNow that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn’t before."
+    "text": "I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.\nFun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).\nAt 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.\nNow I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn’t before."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "index.html#education",
     "title": "Tam Hoang Nguyen",
     "section": "Education",
-    "text": "Education\nMacalester College | St. Paul MN\nB.A. in Statistics and Computer Science | Sept 2020 - May 2024"
+    "text": "Education\nMacalester College | St. Paul MN\nB.A. in Statistics and Computer Science | Sept 2020 - May 2025"
   },
   {
     "objectID": "projects/comp112/index.html",
@@ -40,5 +40,12 @@
     "title": "A Cuisine Game",
     "section": "",
     "text": "Full code can be found here"
+  },
+  {
+    "objectID": "index.html#brief-description-of-me.",
+    "href": "index.html#brief-description-of-me.",
+    "title": "Tam Hoang Nguyen",
+    "section": "",
+    "text": "I am originally from a small town in Vietnam, which is roughly 2 and a half hours away from Ho Chi Minh city by driving.\nFun fact: Because my hometown is right next to the casinos in Cambodia, my mom would take me across the border to get free food there, and uh hum, to gamble (I wasn’t allowed near the tables though).\nAt 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.\nNow I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn’t before."
   }
 ]

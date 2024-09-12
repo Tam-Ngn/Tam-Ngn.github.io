@@ -8,6 +8,8 @@ about:
   links:
     - icon: github
       href: https://github.com/Tam-Ngn
+    - icon: linkedin
+      href: https://www.linkedin.com/in/tam-h-nguyen
 ---
 
 ## **Brief description of me.**
@@ -18,12 +20,12 @@ Fun fact: Because my hometown is right next to the casinos in Cambodia, my mom w
 
 At 17, I was lucky enough to go to an international school China where not only did I have the opportunity to experience Chinese culture, a very similar one to my own, I also got to meet and make friends with people from countries I had not heard of.
 
-Now that I am feeling 22, I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn't before.
+Now I currently attend Macalester College in Saint Paul, Minnesota, USA which is a big next step after China. During my time here, I have had the pleasure to meet people from all walks of life and learned to live life the way I didn't before.
 
 ## **Education**
 
 **Macalester College \| St. Paul MN**
 
-**B.A. in Statistics and Computer Science \| Sept 2020 - May 2024**
+**B.A. in Statistics and Computer Science \| Sept 2020 - May 2025**
 
 \
